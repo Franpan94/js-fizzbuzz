@@ -4,9 +4,7 @@ body{
 
 .ms_box{
     background-color: rgb(19, 137, 178);
-    
     font-size: 2rem;
-    
     text-align: center;
     margin: 20px;
 }
@@ -20,18 +18,14 @@ body{
 
 .ms_box3{
     background-color: rgb(12, 214, 161);
-    
     font-size: 2rem;
-    
     text-align: center;
     margin: 20px;
 }
 
 .ms_box4{
     background-color: rgb(255, 209, 102);
-    
     font-size: 2rem;
-    
     text-align: center;
     margin: 20px;
 }
