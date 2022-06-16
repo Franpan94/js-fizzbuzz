@@ -5,12 +5,13 @@ for(i=1; i<=100; i++){
     let box= document.createElement('div');
     box.classList.add('col', 'ms_box');
     
-    box.innerHTML=i
-
     counter.append(box);
-    console.log(i);
+    
 
-    if((i % 3)==0){
+   if(((i % 3)==0) && ((i % 5)==0)){
+        box.innerHTML= 'FizzBuzz';
+        console.log('FizzBuzz');
+    } else if((i % 3)==0){
         box.innerHTML= 'Fizz';
         console.log('Fizz');
     
@@ -18,6 +19,9 @@ for(i=1; i<=100; i++){
         box.innerHTML= 'Buzz';
         console.log('Buzz');  
     
+    } else{
+        box.innerHTML=i;
+        console.log(i);
     }
     
 }
