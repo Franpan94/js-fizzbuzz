@@ -2,13 +2,13 @@
 let counter= document.getElementById('counter-element');
 
 // Apro il ciclo for dichiarando un contatore 
-for(i=2; i<=100; i++){
+for(i=1; i<=100; i++){
     
     // Creo un div 
     let box= document.createElement('div');
 
     // Aggiungo delle classi al div creato
-    box.classList.add('col-3', 'ms_box',);
+    box.classList.add('col-2', 'ms_box');
     
     
     // Appendo alla variabile dichiarata all'esterno del ciclo il div-box creato
@@ -17,6 +17,7 @@ for(i=2; i<=100; i++){
     
    //Dichiaro la condizione che nel caso in cui sia divisibile per 3 e per 5 con resto=0 stampi la voce fizzbuzz 
    if(((i % 3)==0) && ((i % 5)==0)){
+        box.classList.add('ms_box2');
         box.innerHTML= 'FizzBuzz';
         console.log('FizzBuzz');
     

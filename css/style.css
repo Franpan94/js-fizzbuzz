@@ -4,7 +4,7 @@
     font-size: 2rem;
     border: 2px solid white;
     text-align: center;
-   
+    margin: 20px;
 }
 
 .ms_box2{
@@ -35,5 +35,5 @@
 }
 
 .ms_padding{
-    padding: 100px;
+    padding-top: 100px;
 }
