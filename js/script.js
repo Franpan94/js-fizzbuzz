@@ -23,11 +23,13 @@ for(i=1; i<=100; i++){
     
      //Dichiaro la condizione che nel caso in cui sia divisibile per 3 con resto=0 stampi la voce fizz 
     } else if((i % 3)==0){
+        box.classList.add('ms_box3');
         box.innerHTML= 'Fizz';
         console.log('Fizz');
     
      //Dichiaro la condizione che nel caso in cui sia divisibile per 5 con resto=0 stampi la voce buzz
     } else if((i % 5)==0){
+        box.classList.add('ms_box4');
         box.innerHTML= 'Buzz';
         console.log('Buzz');  
     
